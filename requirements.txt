@@ -1,1 +1,6 @@
 streamlit>=1.26.0
+
+pip install streamlit
+pip install pandas
+pip install openai
+pip install langchain
