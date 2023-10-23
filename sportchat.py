@@ -2,9 +2,10 @@ import streamlit as st
 import openai
 import langchain
 import pandas as pd
+import os
 
 # Set up the OpenAI API key
-openai.api_key = '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'
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
 
 st.title("OpenAI GPT-3 Integration with Streamlit")
 
